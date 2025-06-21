@@ -1,4 +1,5 @@
 # Hosting a Full-Stack Application
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/polarbeargo/nd0067-c4-deployment-process-project-starter/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/polarbeargo/nd0067-c4-deployment-process-project-starter/tree/master)  
 
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
