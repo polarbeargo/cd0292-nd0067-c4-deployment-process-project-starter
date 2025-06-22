@@ -1,17 +1,6 @@
 # Hosting a Full-Stack Application
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/polarbeargo/nd0067-c4-deployment-process-project-starter/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/polarbeargo/nd0067-c4-deployment-process-project-starter/tree/master)  
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
-
----
-
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
-
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
-
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
-
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
 # Udagram
 
@@ -67,6 +56,42 @@ The e2e tests are using Protractor and Jasmine.
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
+
+## Documentation
+- [Pipeline Description](docs/Pipeline_description.md)
+- [Infrastructure Description](docs/Infrastructure_description.md)
+- [Application Dependencies](docs/Application_dependencies.md)
+
+## Demo
+A live demo of the application can be found at [Udagram Demo](https://udagram-demo.example.com).
+
+
+- Below are key screenshots illustrating the deployment process and AWS resources used in this project:
+
+![RDS](screenshots/RDS1.png)  
+    *Amazon RDS dashboard showing the details of the database instance.*
+
+![](screenshots/RDS2.png)  
+    *Detailed view of the RDS instance security group configuration, including endpoint and connectivity settings.*
+
+![RDS](screenshots/RDS3.png)  
+    *Connecting from local development environment to the RDS instance.*
+
+![](screenshots/AWS_ElasticBeanstalk.png)  
+    *AWS Elastic Beanstalk environment dashboard, showing the status of the deployed api.*
+
+![Elastic Beanstalk](screenshots/AWS_ElasticBeanstalk2.png)  
+    *From local environment terminal, showing api deploy to ElasticBeanstalk health and recent events.*
+
+![](screenshots/circle2.png)  
+    *CircleCI dashboard overview, highlighting recent pipeline runs.*
+
+![CircleCI](screenshots/circleci_build.png)  
+    *CircleCI build job details, showing successful build steps.*
+
+![CircleCI](screenshots/circleci_deploy.png)  
+    *CircleCI deployment job details, confirming successful deployment to AWS.*
+
 
 ## License
 
