@@ -63,7 +63,7 @@ The e2e tests are using Protractor and Jasmine.
 - [Application Dependencies](docs/Application_dependencies.md)
 
 ## Demo
-A live demo of the application can be found at [Udagram Demo](https://udagram-demo.example.com).
+A live demo of the application can be found at [Udagram Demo](https://mybucket1342uyew.s3.us-east-1.amazonaws.com/home).
 
 
 - Below are key screenshots illustrating the deployment process and AWS resources used in this project:
