@@ -64,7 +64,12 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Demo
 A live demo of the application can be found at [Udagram Demo](http://mybucket1342uyew.s3-website-us-east-1.amazonaws.com).
+
+Frontend
 ![Demo Screenshot](screenshots/demo.png)
+
+Backend
+![Demo Screenshot](screenshots/API.png)
 
 - Below are key screenshots illustrating the deployment process and AWS resources used in this project:
 
@@ -92,6 +97,19 @@ A live demo of the application can be found at [Udagram Demo](http://mybucket134
 ![CircleCI](screenshots/circleci_deploy.png)  
     *CircleCI deployment job details, confirming successful deployment to AWS.*
 
+![CircleCI](screenshots/circleCI_env.png)
+    *CircleCI environment variables configuration, showing sensitive data management.*
+
+![S3 Bucket](screenshots/s3hosting.png)  
+    *AWS S3 bucket dashboard, displaying the contents of the bucket used for hosting the frontend.*
+
+![S3 Bucket](screenshots/S3_public_access.png)
+    *AWS S3 bucket public access settings, showing the configuration for allowing public access to the hosted frontend.*
+![S3 Bucket](screenshots/s3_policy.png)  
+    *S3 bucket policy configuration, ensuring proper permissions for public access to the frontend files.*
+
+![S3 Bucket](screenshots/s3_CORs.png) 
+    *S3 bucket CORS configuration, allowing cross-origin requests from the frontend.*
 
 ## License
 
